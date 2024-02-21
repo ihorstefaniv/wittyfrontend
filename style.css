@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title-banner {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons-banner {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.owl {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.owl img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 span.witty-text-banner {
+    color: #3573BA;
+}
+
+h2 span.educational-text-banner {
+    color: #FDA718;
+}
+
+.mountains {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.mountains img {
+    width: 100%;
+
+}
