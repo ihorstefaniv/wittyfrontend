@@ -27,6 +27,13 @@ p {
     text-align: center;
 }
 
+.banner-position-text {
+    margin: 20px;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
 .buttons-banner {
     margin-right: 10px;
     padding: 10px;
@@ -44,8 +51,38 @@ p {
     padding: 20px;
 }
 
+.button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #345286;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    position: relative;
+    flex-grow: 1; /* Кнопки займатимуть всю доступну ширину в рядку */
+    max-width: calc(50% - 10px); /* Максимальна ширина, щоб дві кнопки не займали всю ширину на екранах з великою шириною */
+}
+
+.banner-position-text .buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button:hover {
+    background-color: #5285de;
+}
+
+.button:active {
+    background-color: #fff;
+    color: #345286;
+    border: 2px solid #345286;
+}
+
 .owl img {
-    max-width: 100%;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
